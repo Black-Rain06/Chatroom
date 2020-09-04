@@ -144,7 +144,7 @@ class BlogActions:
     return jsonify(result)
 
 
-
+'''
 class WindowManager(ScreenManager):
     # Responsible for moving things around on the screen
     pass
@@ -165,9 +165,9 @@ sm.current = "room"
 class MyMainApp(App):
     def build(self):
         return sm
-
+'''
 # This makes sure that if we are running this file directly, debug mode is turned on
 if __name__ == '__main__':
 
-  MyMainApp().run()
-  #app.run(debug=True)
+  #MyMainApp().run()
+  app.run(debug=True)
